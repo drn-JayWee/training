@@ -1,0 +1,11 @@
+.myBtn {
+	padding: .5rem 2.5rem;
+	background-color: gray;
+	border: .1rem solid black  ;
+	color: whitesmoke;
+	margin: 0 7rem;
+}
+
+.myBtn:hover {
+	cursor: pointer;
+}
