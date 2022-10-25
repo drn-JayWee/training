@@ -9,12 +9,13 @@ const LayOut = () => {
 				<header>
 					<div className='Navbar'>
 						<div className='Navbar__logo'>
-							<p>LOGO</p>
+							<p>logo</p>
 						</div>
 						<div className='Navbar__list'>
 							<NavLink to='/'>Главная</NavLink>
 							<NavLink to='profile'>Профиль</NavLink>
 							<NavLink to='chat'>Чат</NavLink>
+							<NavLink to='training'>Обучение</NavLink>
 						</div>
 					</div>
 				</header>
