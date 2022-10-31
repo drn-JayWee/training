@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink, Outlet } from 'react-router-dom';
 
 
+
 const LayOut = () => {
 	return (
 		<>
@@ -9,7 +10,7 @@ const LayOut = () => {
 				<header>
 					<div className='Navbar'>
 						<div className='Navbar__logo'>
-							<p>logo</p>
+							<img src='../../assets/images/logo/Vector.png' alt='logo'/>
 						</div>
 						<div className='Navbar__list'>
 							<NavLink to='/'>Главная</NavLink>
