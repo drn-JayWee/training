@@ -16,6 +16,7 @@ const LayOut = () => {
 							<NavLink to='/'>Главная</NavLink>
 							<NavLink to='profile'>Профиль</NavLink>
 							<NavLink to='chat'>Чат</NavLink>
+							<NavLink to='api'>Api</NavLink>
 							<NavLink to='training'>Обучение</NavLink>
 						</div>
 					</div>

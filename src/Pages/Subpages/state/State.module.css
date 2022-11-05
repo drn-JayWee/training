@@ -1,0 +1,27 @@
+.counter {
+  color: 0;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.counter span {
+  color: white;
+  margin: 2rem 0;
+}
+.counter__btn {
+  width: 7rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.inputState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.inputState input {
+  padding: 0.5rem 3rem;
+}/*# sourceMappingURL=State.module.css.map */

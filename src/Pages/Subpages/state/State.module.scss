@@ -1,0 +1,34 @@
+
+.counter {
+	color: red($color: #000000);
+	font-size: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	span {
+		color: white;
+		margin: 2rem 0;
+	}
+
+	&__btn {
+		width: 7rem;
+		padding: .5rem 2rem;
+		cursor: pointer;
+
+
+	}
+}
+
+.inputState {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5rem;
+
+	input {
+		padding: .5rem 3rem;
+	}
+
+}
